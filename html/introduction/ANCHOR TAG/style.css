@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.promoBanner{
+    background-color:rgb(233, 182, 29);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+.promoBanner button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(236, 119, 28);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.mainNavbar{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainNavbar .navList{
+    display: flex;
+    list-style: none;
+    gap: 0px 50px;
+    margin-right:60px;
+}
+
+.mainNavbar .navList li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
