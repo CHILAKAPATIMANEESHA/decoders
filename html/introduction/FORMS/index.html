@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+
+  <form action="#" style="padding: 80px 10px;">
+    
+    <!-- First Name -->
+    <label for="firstname">First Name:</label><br>
+    <input type="text" id="fname" name="firstname"  minlength="3" maxlength="10"><br><br>
+
+    <!-- Middle Name -->
+    <label for="middlename">Middle Name:</label><br>
+    <input type="text" id="mname" name="middlename"><br><br>
+
+    <!-- Last Name -->
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" id="lname" name="lastname" required><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="1" required><br><br>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Interests -->
+    <label>Interests:</label><br>
+    <input type="checkbox" id="coding" name="interest" value="Coding">
+    <label for="coding">Coding</label>
+    <input type="checkbox" id="music" name="interest" value="Music">
+    <label for="music">Music</label><br><br>
+
+    <!-- Hobbies -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="reading" name="hobby" value="Reading">
+    
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="traveling" name="hobby" value="Traveling">
+    <label for="traveling">Traveling</label>
+    <input type="checkbox" id="sports" name="hobby" value="Sports">
+    <label for="sports">Sports</label><br><br>
+
+    <!-- Country -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <!-- Message -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+    <!-- Captcha -->
+    <label for="captcha">8egph</label><br>
+    <input type="text" id="captcha" name="captcha" ><br><br>
+
+    <!-- Submit -->
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
