@@ -1,0 +1,50 @@
+
+.flag{
+  margin-top: 40px;
+  border: 5px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+
+}
+
+
+.top{
+  height: 100px;
+  width: 400px;
+  background-color: #FF671F;
+  box-shadow: #FFFFFF;
+   border: solid 2px black;
+
+}
+.white{
+  height: 100px;
+  width: 400px;
+  background-color: #FFFFFF;
+  border: solid 2px black;
+
+}
+.chakram img{
+  width:100px;
+  height:100px;
+  
+}
+.chakram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+.green{
+  height:100px;
+  width:400px;
+  background-color:#046A38 ;
+   border: solid 2px black;
+
+}
+
+  
