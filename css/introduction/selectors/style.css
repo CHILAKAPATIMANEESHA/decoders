@@ -1,0 +1,227 @@
+/*universal selectors*/
+*{
+    margin:0;
+    padding: 0;
+}
+/*tag selector
+div{
+    background-color:rgb(26, 141, 112);
+}
+
+
+/* grouping selector
+h1,h3{
+    background-color: blue;
+}
+/* id selectors
+#Categories{
+    background-color: brown;
+}
+/* class selectors
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.nav-list {
+  display: flex;
+  
+  gap: 20px;
+}
+
+.nav-link {
+  
+  display:flex
+  
+  
+}
+*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Tag (TagName) 
+
+div{
+    background-color: #c3c0c0;
+}
+
+header{
+    background-color: #343232;
+}
+
+/* Grouping 
+
+h2, h3{
+    background-color: teal;
+}
+
+/* class ( . ) 
+.header{
+    background-color: #d80e0e;
+}
+
+
+/* id selector ( # ) 
+
+#main-header{
+    background-color: #3ad80e;
+}
+
+/* Attribute Selectors 
+
+header[id="main-header"]{
+    background-color: aqua;
+}
+
+div[id="main-header"]{
+    background-color: #d80e0e;
+}
+    */
+    /* Universal Selector */
+    /*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Tag Selectors
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Grouping Selector 
+h2, p {
+  color: #333;
+}
+
+/* ID Selector 
+#main-header {
+  background-color: #004aad;
+  padding: 20px;
+  color: white;
+}
+
+#main-footer {
+  background-color: #f1f1f1;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Class Selectors 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar .nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.category-card {
+  background-color: #ffe0b3;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.category-card:hover {
+  background-color: #ffd699;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #e6f7ff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.featured {
+  border: 2px solid #0077cc;
+}
+
+/* Attribute Selector 
+[data-type="fashion"] {
+  background-color: #f4c2c2;
+}
+
+[data-type="electronics"] {
+  background-color: #d1ecf1;
+}
+
+[data-type="home"] {
+  background-color: #d4edda;
+}
+
+[data-info="support"] {
+  font-style: italic;
+  color: #555;
+}
+*/
+/*universal selectors*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* tag selectors*/
+
+div{
+    background-color: aqua;
+}
+
+header{
+    background-color: blueviolet;
+}
