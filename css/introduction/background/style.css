@@ -1,0 +1,22 @@
+.container{
+ color: white;
+    height: 1000px;
+    padding: 20px;
+    border: 20px dashed #000;
+    background-color: #ede6e6;
+    background-image: url("https://i.pinimg.com/736x/cf/35/91/cf3591df9bfec3802311fbf497c6ba84.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+   background-size: contain; 
+    background-attachment:scroll;
+    background-origin: content-box; 
+   
+    
+    
+    
+
+    
+}
+h1{
+    color:aliceblue;
+}
