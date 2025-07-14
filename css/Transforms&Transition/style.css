@@ -1,0 +1,36 @@
+.box1{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    transform: skew(20deg);
+    margin-left: 50%;
+    margin-top:20px;
+    
+}
+.box2{
+    width:100px;
+    height:100px;
+    background-color:pink;
+    transform: skew(180deg);
+
+}
+.box3{
+    margin-top: 20px;
+    width:100px;
+    height:100px;
+    background-color:red;
+    transition: width 2s , height 2s ;
+
+}
+div:hover{
+    width: 300px;
+    height:300px;
+}
+.box4{
+    margin-top: 20px;
+    width:100px;
+    height:100px;
+    background-color:blue;
+    transition: width 2s , height 2s ;
+
+}
