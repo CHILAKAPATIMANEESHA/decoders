@@ -165,7 +165,7 @@ button:hover{
 }
 
 .card:hover {
-  transform: translatey(10px);
+  transform: scale(1.03);
 }
 
 
