@@ -393,26 +393,34 @@ button:hover{
   margin-top: 10px;
   
 }
+
+.measures h4{
+  font-size: 20px;
+  margin-top: 30px;
+}
 .measures ul {
   list-style: none;
   padding-left: 0;
   columns: 2;
   margin-top: 10px;
+  background-color:whitesmoke; 
+  padding: 20px;
+  border: 1px solid snow;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
 }
+
 .measures i{
   color:orangered;
 }
-.instructions {
-  margin-top: 30px;
-  font-family: Arial, sans-serif;
-}
+
 
 .instructions {
   margin-top: 30px;
   font-family: Arial, sans-serif;
 }
 
-.instructions h3 {
+.instructions h4 {
   font-size: 20px;
   margin-bottom: 15px;
   font-weight: bold;
@@ -432,6 +440,13 @@ button:hover{
 .instructions i{
   color: #f15b2a;
   
+}
+.curry {
+  background-color: #fff;         
+  padding: 20px;                  
+  margin: 20px 0;                 
+  border-radius: 10px;            
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
 }
 
 
