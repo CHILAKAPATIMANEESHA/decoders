@@ -407,5 +407,32 @@ button:hover{
   font-family: Arial, sans-serif;
 }
 
+.instructions {
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.instructions h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.instructions ol {
+  list-style: none;
+  padding: 0;
+}
+
+.instructions li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.instructions i{
+  color: #f15b2a;
+  
+}
+
 
 
