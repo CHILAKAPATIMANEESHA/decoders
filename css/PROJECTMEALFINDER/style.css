@@ -87,13 +87,13 @@ input::placeholder {
   height: 70px;
   width:70px;
   padding: 10px 15px;
-  background-color: white;
+  background-color: #ff6347;
   border: 1px solid #ccc;
   border-radius: 50%;
   cursor: pointer;
 }
 button:hover{
-  background-color: #ff6347;
+  background-color:white;
 }
 
 .hero-text h1 {
@@ -141,6 +141,88 @@ button:hover{
   row-gap: 50px;   
   padding-right: 300px; 
 }
+ 
+ 
+ 
+
+@media (max-width: 480px) {
+  .Template {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    padding: 100px 15px;
+    height: 400px;
+  }
+
+  .hero-text h1 {
+    font-size: 20px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .search-bar input {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .search-bar button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .categories h2 {
+    font-size: 18px;
+  }
+
+  .tag {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Template {
+    grid-template-columns: repeat(5, 1fr);
+    padding-right: 0;
+    justify-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .header {
+    padding: 200px 40px;
+    height: 600px;
+    width:100%;
+  }
+
+  .search-bar input {
+    padding: 15px;
+  }
+
+  .search-bar button {
+    height: 60px;
+    width: 60px;
+  }
+
+  .hero-text h1 {
+    font-size: 26px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+}
+
+
+
+  
+
 
 
 
@@ -273,6 +355,15 @@ button:hover{
   transform: scale(1.05);
   cursor: pointer;
 }
+.item {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 2000px;
+  margin: auto;
+}
+
 
 .breadcrumb {
   background-color: #f15b2a;
@@ -320,7 +411,8 @@ button:hover{
 
 .meal-info {
   flex: 1;
-  min-width: 250px;
+  width: 1000px;
+  
 }
 
 .meal-info h2 {
@@ -337,7 +429,8 @@ button:hover{
   border-bottom: 3px solid orange; 
   padding-bottom: 5px; 
   font-size: 28px;
-  width: 100%;
+  width: 800px;
+  
 }
 .source-title{
   text-decoration: none;
@@ -358,6 +451,7 @@ button:hover{
   margin-top: 20px;
   background-color: #f15b2a;
   color:white;
+  width: 800px;
   
   gap: 50px;
   padding-bottom: 50px;
@@ -410,6 +504,7 @@ button:hover{
   border: 1px solid snow;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+
 }
 
 .measures i{
@@ -449,122 +544,9 @@ button:hover{
   margin: 20px 0;                 
   border-radius: 10px;            
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
-}
-
-
-
-
-@media (max-width: 768px) {
-
-  .container {
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .header {
-    padding: 150px 20px;
-    height: auto;
-  }
-
-  .search-bar {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .search-bar input {
-    width: 100%;
-  }
-
-  .categories {
-    padding: 30px 10px;
-    text-align: center;
-  }
-
-  .Template,
-  .meal-grid {
-    grid-template-columns: repeat(1, 1fr);
-    padding-right: 0;
-    justify-content: center;
-  }
-
-  .card {
-    width: 100%;
-    height: auto;
-  }
-
-  .meal-container {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .meal-img img {
-    width: 100%;
-    height: auto;
-  }
-
-  .meal-info {
-    padding: 10px;
-  }
-
-  .ingredients ul {
-    columns: 1;
-  }
-
-  .measures ul {
-    columns: 1;
-  }
-
-  .intro p {
-    font-size: 18px;
-  }
-
-  .intro h2 {
-    font-size: 26px;
-  }
-
-  .hero-text h1 {
-    font-size: 24px;
-  }
-
-  .hero-text p {
-    font-size: 16px;
-  }
-
-  .meal-details {
-    height: auto;
-    padding: 20px;
-  }
-}
-
-
-@media (min-width: 769px) and (max-width: 1024px) {
   
-  .Template,
-  .meal-grid {
-    grid-template-columns: repeat(2, 1fr);
-    padding-right: 0;
-    gap: 20px;
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .meal-img img {
-    width: 100%;
-    height: auto;
-  }
-
-  .meal-container {
-    flex-direction: column;
-  }
-
-  .ingredients ul {
-    columns: 2;
-  }
-
-  .measures ul {
-    columns: 2;
-  }
 }
+
+
+
+

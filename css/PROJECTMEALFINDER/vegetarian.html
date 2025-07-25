@@ -8,6 +8,84 @@
   
 
   <link rel="stylesheet" href="./style.css" />
+  <style>
+    @media (max-width: 1024px) {
+  .meal-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+  }
+
+  .intro h2 {
+    font-size: 32px;
+  }
+
+  .intro p {
+    font-size: 24px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .meal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .intro {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .intro h2 {
+    font-size: 28px;
+  }
+
+  .intro p {
+    font-size: 20px;
+  }
+
+  .card {
+    height: auto;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .meal-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .intro h2 {
+    font-size: 24px;
+  }
+
+  .intro p {
+    font-size: 18px;
+  }
+
+  .meals h2 {
+    font-size: 20px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+}
+
+  </style>
    
   
 </head>
