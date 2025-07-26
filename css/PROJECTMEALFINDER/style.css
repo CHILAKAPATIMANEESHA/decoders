@@ -15,12 +15,18 @@ body {
 }
 
 
-.topbar {
+ 
+.topbar{
   background-color: #ff6347;
   color: white;
   padding: 10px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  
+  
 }
-
 
 .container {
   display: flex;
@@ -144,85 +150,6 @@ button:hover{
  
  
  
-
-@media (max-width: 480px) {
-  .Template {
-    grid-template-columns: 1fr;
-  }
-
-  .header {
-    padding: 100px 15px;
-    height: 400px;
-  }
-
-  .hero-text h1 {
-    font-size: 20px;
-  }
-
-  .hero-text p {
-    font-size: 14px;
-  }
-
-  .search-bar input {
-    font-size: 16px;
-    padding: 12px;
-  }
-
-  .search-bar button {
-    width: 50px;
-    height: 50px;
-  }
-
-  .categories h2 {
-    font-size: 18px;
-  }
-
-  .tag {
-    font-size: 11px;
-    padding: 6px 10px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .Template {
-    grid-template-columns: repeat(5, 1fr);
-    padding-right: 0;
-    justify-items: center;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 240px;
-  }
-
-  .header {
-    padding: 200px 40px;
-    height: 600px;
-    width:100%;
-  }
-
-  .search-bar input {
-    padding: 15px;
-  }
-
-  .search-bar button {
-    height: 60px;
-    width: 60px;
-  }
-
-  .hero-text h1 {
-    font-size: 26px;
-  }
-
-  .hero-text p {
-    font-size: 18px;
-  }
-}
-
-
-
-  
-
 
 
 
@@ -532,7 +459,7 @@ button:hover{
   margin-bottom: 12px;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 .instructions i{
   color: #f15b2a;
