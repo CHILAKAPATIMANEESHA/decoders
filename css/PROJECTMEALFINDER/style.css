@@ -147,6 +147,42 @@ button:hover{
   row-gap: 50px;   
   padding-right: 300px; 
 }
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+    padding: 8px;
+    
+  }
+
+  .search-bar button {
+    padding: 8px;
+  }
+
+  .hero-text h1 {
+    font-size: 18px;
+  }
+
+  .hero-text p {
+    font-size: 12px;
+  }
+
+  .categories h2 {
+    font-size: 20px;
+  }
+
+  .Template {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .tag {
+    font-size: 11px;
+  }
+}
  
  
  
@@ -282,6 +318,89 @@ button:hover{
   transform: scale(1.05);
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+  .meal-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+  }
+
+  .intro h2 {
+    font-size: 32px;
+  }
+
+  .intro p {
+    font-size: 24px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .meal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .intro {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .intro h2 {
+    font-size: 28px;
+  }
+
+  .intro p {
+    font-size: 20px;
+  }
+
+  .card {
+    height: auto;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .meal-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .intro h2 {
+    font-size: 24px;
+  }
+
+  .intro p {
+    font-size: 18px;
+  }
+
+  .meals h2 {
+    font-size: 20px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
 .item {
   background: white;
   padding: 30px 20px;
@@ -472,6 +591,40 @@ button:hover{
   border-radius: 10px;            
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
   
+}
+@media (max-width: 480px) {
+  .search-bar input {
+    width: 100%;
+  }
+
+  .meal-container {
+    flex-direction: column;
+  }
+
+  .topbar .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .header {
+    padding: 1.5rem 5%;
+  }
+
+  .categories h2 {
+    font-size: 1.5rem;
+  }
+
+  .breadcrumb {
+    flex-wrap: wrap;
+  }
 }
 
 
