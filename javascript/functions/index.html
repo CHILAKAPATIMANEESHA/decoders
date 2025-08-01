@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functins</title>
+</head>
+<body>
+    <script>
+        //normal function
+    function greet(){
+            console.log('welcome');
+            
+        }greet()
+        // function with parameters
+        function sum(a,b){
+            console.log(a+b);
+            
+
+        }sum(2,3)
+        // function with default values
+        function value(a,b,c=3){
+            console.log(a+b+c);
+            
+        }value(5,5,5)
+        //variable function
+        let average=function(a,b){
+            console.log(a+b);
+            
+        } 
+        average(50,60)
+        //set timeout setinterval
+        setTimeout(function() 
+        {
+            console.log('welcome');
+            
+        },1000)
+        setInterval(function(){
+            console.log('hii');
+            
+        },2000)
+        // return function
+        function hi(name){
+            return name;
+
+        }
+        console.log(hi('maneesha'));
+        //immediately invoke function
+        (function(){
+            console.log('hello');
+            
+        })
+        ();
+        //arrow function
+        let something=()=>{
+            console.log('good afternoon');
+            
+        }
+        something()
+        // callback function
+        function welcome(name,x){
+            console.log('welcome',name);
+            
+            x();
+
+        }welcome('team',saybye)
+
+        function saybye(){
+            console.log('nice to meet you');
+            
+        }
+        //repeat 
+         let repeat=()=>{
+            for(let i=1;i<=5;i++)
+            console.log(i);
+            
+     }
+        
+        
+    </script>
+</body>
+</html>
