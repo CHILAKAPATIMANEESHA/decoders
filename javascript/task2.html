@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f4f4f4;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      width: 300px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+     input[type="text"], input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .message {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <input type="text" id="username" placeholder="Username" required><br>
+      <input type="email" id="email" placeholder="Email" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <button type="submit">Register</button>
+      <div class="message" id="message"></div>
+    </form>
+  </div>
+  <script>
+  document.getElementById("signupForm").addEventListener("click", function(event){
+    
+  
+
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+     let password = document.getElementById("password").value;
+     let message = document.getElementById("message");
+
+    if (username == "" ){
+      document.getElementById('username').style.display='block'.color='red'
+    }else{
+      document.getElementById('username').style.display='none'
+
+    }
+  if (password == "" ){
+      document.getElementById('password').style.display='block'.color='red'
+    }else{
+      document.getElementById('password').style.display='none'
+
+    }
+
+    if (email == "" ){
+      document.getElementById('email').style.display='block'.color='red'
+    }else{
+      document.getElementById('email').style.display='none'
+
+    }
+
+    if (username != "" && email != "" && password != "") {
+      message.style.color = "red";
+      message.textContent = "All fields are required.";
+    } else if (password.length < 6) {
+      message.style.color = "red";
+      message.textContent = "Password must be at least 6 characters.";
+    } else {
+      message.style.color = "green";
+      message.textContent = "Sign-up successful!";
+       document.getElementById("signupForm").reset();
+      
+    }
+  })
+  
+
+  
+  
+   
+</script>
+
+
+    
+    
+    
+</body>
+</html>

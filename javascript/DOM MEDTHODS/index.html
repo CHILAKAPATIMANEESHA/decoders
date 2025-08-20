@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom methods</title>
+</head>
+<body>
+    <script>
+    
+        
+
+
+
+
+
+
+
+ 
+
+
+let img1 = document.createElement('img');
+img1.setAttribute('src','./assert/image/image3.jpg')
+img1.setAttribute('alt','girl');
+img1.setAttribute('style','width:150px;height:150px;border-radius:50% ;margin:10px ');
+document.body.appendChild(img1);
+
+let img2=document.createElement('img');
+img2.setAttribute('src','./assert/image/image1.jpg')
+img2.setAttribute('alt','girl');
+img2.setAttribute('style','width:150px;height:150px;border-radius:50%; margin:10px');
+document.body.appendChild(img2);
+
+let img3 = document.createElement('img');
+img3.setAttribute('src', './assert/image/flower.jpg');
+img3.setAttribute('alt','flower');
+img3.setAttribute('style', 'width: 150px; height: 150px; border-radius: 50%;margin:10px');
+console.log(img3);
+document.body.appendChild(img3); 
+
+
+   
+
+let tab=document.createElement('table');
+let thead=document.createElement('thead');
+let tr=document.createElement('tr');
+let td1=document.createElement('td');
+let txt1=document.createTextNode('s.no')
+let td2=document.createElement('td');
+let txt2=document.createTextNode('name')
+let td3=document.createElement('td');
+let txt3=document.createTextNode('email')
+let td4=document.createElement('td');
+let txt4=document.createTextNode('contact')
+let td5=document.createElement('td');
+let txt5=document.createTextNode('address')
+td5.appendChild(txt5);
+td4.appendChild(txt4);
+td3.appendChild(txt3);
+td2.appendChild(txt2);
+td1.appendChild(txt1);
+tr.appendChild(td1);
+tr.appendChild(td2);
+tr.appendChild(td3);
+tr.appendChild(td4);
+tr.appendChild(td5);
+thead.appendChild(tr);
+tab.appendChild(thead);
+
+document.body.appendChild(tab);
+
+//
+let tbody = document.createElement('tbody');
+
+
+
+let dataRow = document.createElement('tr');
+
+
+let data1 = document.createElement('td');
+data1.textContent = '1'; 
+
+
+let data2 = document.createElement('td');
+data2.textContent = 'maneesha'; 
+
+let data3 = document.createElement('td');
+data3.textContent = 'maneesha@com'; 
+
+let data4 = document.createElement('td');
+data4.textContent = '9876544435'; 
+
+let data5 = document.createElement('td');
+data5.textContent = 'kommi'; 
+
+
+dataRow.appendChild(data1);
+dataRow.appendChild(data2);
+dataRow.appendChild(data3);
+dataRow.appendChild(data4);
+dataRow.appendChild(data5);
+
+
+tbody.appendChild(dataRow);
+
+
+tab.appendChild(tbody);
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
